@@ -1,2 +1,5 @@
 # redis-parse
 redis协议解析
+此程序用于模拟解析redis协议，通过传入redis协议字符串，解析出相应的操作指令或结果
+程序暴露两个接口一个是ReadPipline和ReadObject:
+ReadPipeline用于一次性解析管线中所有的指令，ReadObject用于解析一条指令
